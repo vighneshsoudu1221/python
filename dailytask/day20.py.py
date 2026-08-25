@@ -68,11 +68,13 @@ y=[i**2 for i in x if i%3==0]
 print(y)
 """
 
-#7. Write a Python program using List Comprehension to replace every negative number with 0 while keeping all other elements unchanged.
+#7. Write a Python program using List Comprehension to replace every negative number with 0 while keeping all
+#other elements unchanged.
 #Input:[-5, 12, -8, 20, 0, -3, 15]
-#Output:
-[0, 12, 0, 20, 0, 0, 15]
-
+#Output:[0, 12, 0, 20, 0, 0, 15]
+x=[-5, 12, -8, 20, 0, -3, 15]
+y=[ 0 if i<0 else i for i in x]
+print(y)
 
 
 
