@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 300px;
+  height: 500px;
+  text-align: right;
+  background-color: skyblue;
+}
+.b {
+  border-radius: 20px;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#output {
+  font-size: 30px;
+  font-weight: bold;
+}

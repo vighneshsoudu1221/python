@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.navbar {
+  background-color: aqua;
+  height: 50px;
+  font-size: 40px;
+}
